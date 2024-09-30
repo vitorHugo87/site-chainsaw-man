@@ -2,7 +2,7 @@
     --flame: #e9531a;
     --aureolin: #fce601;
     --malachite: #3ad842;
-    --black: #000604;
+    --black: #000000;
     --timberwolf: #e4dad2;
     --cian: #04A9C6;
     --violet: #C81389;
@@ -23,4 +23,37 @@ section#carousel {
 
 .carousel-img {
     filter: brightness(50%);
+}
+
+section#personagens {
+    background-color: var(--cian);
+    padding: 20px;
+}
+
+section#personagens .btn {
+    background-color: var(--flame);
+    color: white;
+}
+
+.card {
+    height: 100%; /* Garante que todos os cards tenham a mesma altura */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Garante que o texto e o botão fiquem bem distribuídos */
+}
+
+.card-body a {
+    width: 50%;
+    align-self: center;
+    border: none;
+}
+
+.card-text {
+    flex-grow: 1;
 }
