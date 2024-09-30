@@ -7,3 +7,12 @@
     --cian: #04A9C6;
     --violet: #C81389;
 }
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--malachite);
+    padding: 20px;
+}
