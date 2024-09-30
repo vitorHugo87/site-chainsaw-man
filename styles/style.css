@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: var(--malachite);
-    padding: 20px;
+    padding: 10px;
 }
 
 section#carousel {
