@@ -16,3 +16,7 @@ header {
     background-color: var(--malachite);
     padding: 20px;
 }
+
+.carousel-img {
+    filter: brightness(50%);
+}
