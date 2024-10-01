@@ -57,3 +57,26 @@ section#personagens .btn {
 .card-text {
     flex-grow: 1;
 }
+
+section#capitulos {
+    padding: 20px;
+    background-color: var(--flame);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--cian);
+    color: white;
+}
+
+.accordion-button:focus {
+    border-color: var(--violet);
+    box-shadow: var(--violet);
+}
+
+.accordion {
+    --bs-accordion-border-color: var(--black);
+}
+
+.accordion-body {
+    background-color: var(--malachite);
+}
